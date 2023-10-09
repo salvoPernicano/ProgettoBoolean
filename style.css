@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    color: white;
+}
+
+main {
+    margin: 30px auto 0;
+    width: 65vw;
+    height: 85vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 90px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+main img {
+    height: 110px;
+    width: 260px;
+}
+
+h1 {
+    color: rgb(8, 220, 4);
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(8, 220, 4);
+    padding: 15px;
+}
+
+button {
+    padding: 1px 3px;
+}
+
+section {
+    margin: auto;
+    width: 80%;
+}
+
+.monopattini {
+    text-align: left;
+    margin: 20px 0px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+h3 {
+    font-weight: 300;
+    padding: 5px 0;
+}
+
+h3::before {
+    content: "\21A6";
+}
+
+#primo {
+    height: 30px;
+    width: 37%;
+    background-color: rgb(223, 168, 66);
+    border-radius: 5px;
+}
+
+
+#secondo {
+    height: 30px;
+    width: 67%;
+    background-color: rgb(47, 187, 47);
+    border-radius: 5px;
+}
+
+#terzo {
+    height: 30px;
+    width: 17%;
+    background-color: rgb(212, 71, 52);
+    border-radius: 5px;
+}
+
